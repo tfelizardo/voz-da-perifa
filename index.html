@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Lab Clima e Periferias — PerifaConnection</title>
+  <meta name="description"
+    content="Laboratório de comunicação popular sobre justiça climática nas periferias. Terceira edição do Lab Clima e Periferias, realizado no Rio de Janeiro.">
+  <meta property="og:title" content="Lab Clima e Periferias — PerifaConnection">
+  <meta property="og:description" content="Laboratório de comunicação popular sobre justiça climática nas periferias.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a href="#inicio" class="brand">
+        <img src="img/logo1024x768.png" alt="PerifaConnection" />
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav" aria-label="Abrir menu">☰</button>
+      <nav class="nav" id="site-nav">
+        <a href="#quem-somos">Quem somos</a>
+        <a href="#sobre-o-lab">Sobre o Jornal</a>
+        <a href="#baixe-o-jornal">Baixe o jornal</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="sobre-o-lab" class="section">
+      <div class="container">
+        <div class="carousel" id="carousel">
+          <button class="c-nav prev" aria-label="Anterior">&#10094;</button>
+          <div class="track">
+            <div class="slide"><img src="img/img1.jpg" alt="Foto 1 do Lab"></div>
+            <div class="slide"><img src="img/img2-lab.jpg" alt="Foto 2 do Lab"></div>
+            <div class="slide"><img src="img/img-chf.jpg" alt="Foto 3 do Lab"></div>
+          </div>
+          <button class="c-nav next" aria-label="Próximo">&#10095;</button>
+          <div class="dots" aria-label="Navegação por slides"></div>
+        </div>
+
+        <div class="content">
+          <h2>Sobre o Jornal</h2>
+          <p>O Jornal Voz da Perifa foi produzido a partir do Lab Clima e Periferias 3, realizado pelo PerifaConnection
+            em parceria com Voz das Comunidades e a Narra.</p>
+          <p>O Lab Clima e Periferias é um espaço de encontro, escuta e criação coletiva, que compreende a comunicação
+            popular como uma ferramenta de disputa política e transformação social. Em sua terceira edição, o
+            laboratório reuniu comunicadoras e comunicadores de periferias e favelas de diversas regiões do Brasil, em
+            um encontro presencial voltado à produção de conteúdo sobre justiça climática, racismo ambiental e direito à
+            vida nos territórios populares.</p>
+          <p>A atividade fez parte de uma estratégia nacional para o fortalecimento e a amplificação de narrativas
+            periféricas em direção à 30ª Conferência das Nações Unidas sobre Mudanças Climáticas (COP30), realizada em
+            Belém (PA).</p>
+          <p>O material foi construído coletivamente por 30 jovens comunicadores(as) com o objetivo informar sobre a
+            COP30 e discutir justiça climática, meio ambiente e racismo ambiental em linguagem acessível e popular.
+            Queremos garantir que o debate chegue às comunidades que normalmente não têm acesso direto à informações
+            sobre clima e meio ambiente.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="quem-somos" class="section alt">
+      <div class="container grid-2 quem-somos-grid">
+        <div class="quem-somos-text">
+          <h2>Quem somos? </h2>
+          <p>O PerifaConnection é uma plataforma de conexão e confluência das periferias do Brasil. Nossa missão é
+            potencializar juventudes negras e periféricas por meio de comunicação, formação e ocupação política de
+            espaços para disputar e ecoar narrativas. Nossa visão é um Brasil que tem como centralidade os territórios
+            periféricos dentro das suas pluralidades, com foco no enfrentamento ao racismo.</p>
+        </div>
+
+        <figure class="quem-somos-img">
+          <img src="img/DSC06223.jpg" alt="Integrantes do PerifaConnection">
+        </figure>
+      </div>
+    </section>
+
+    <section id="baixe-o-jornal" class="section cta">
+      <div class="container cta-inner">
+        <h2>Baixe o jornal</h2>
+        <p>Faça o download do jornal produzido no Lab Clima e Periferias — edição especial sobre justiça climática.</p>
+
+        <div class="form-or-iframe">
+          <!-- IFRAME INVISÍVEL: recebe o POST sem navegar -->
+          <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;"></iframe>
+
+          <form
+            action="https://docs.google.com/forms/d/e/1FAIpQLSdmbj1LOxUzgINWYEq346ciIOuFwdww5PrbY5klNujDkmxhXw/formResponse"
+            method="POST" target="hidden_iframe" class="custom-form" id="cadastro-form">
+            <div class="form-row">
+              <!-- Nome -->
+              <input type="text" name="entry.1799617225" placeholder="Insira seu nome" required>
+
+              <!-- Estado -->
+              <select name="entry.1772769050" id="estado" required aria-label="Estado">
+                <option value="" disabled selected>Estado</option>
+                <option value="AC">Acre (AC)</option>
+                <option value="AL">Alagoas (AL)</option>
+                <option value="AP">Amapá (AP)</option>
+                <option value="AM">Amazonas (AM)</option>
+                <option value="BA">Bahia (BA)</option>
+                <option value="CE">Ceará (CE)</option>
+                <option value="DF">Distrito Federal (DF)</option>
+                <option value="ES">Espírito Santo (ES)</option>
+                <option value="GO">Goiás (GO)</option>
+                <option value="MA">Maranhão (MA)</option>
+                <option value="MT">Mato Grosso (MT)</option>
+                <option value="MS">Mato Grosso do Sul (MS)</option>
+                <option value="MG">Minas Gerais (MG)</option>
+                <option value="PA">Pará (PA)</option>
+                <option value="PB">Paraíba (PB)</option>
+                <option value="PR">Paraná (PR)</option>
+                <option value="PE">Pernambuco (PE)</option>
+                <option value="PI">Piauí (PI)</option>
+                <option value="RJ">Rio de Janeiro (RJ)</option>
+                <option value="RN">Rio Grande do Norte (RN)</option>
+                <option value="RS">Rio Grande do Sul (RS)</option>
+                <option value="RO">Rondônia (RO)</option>
+                <option value="RR">Roraima (RR)</option>
+                <option value="SC">Santa Catarina (SC)</option>
+                <option value="SP">São Paulo (SP)</option>
+                <option value="SE">Sergipe (SE)</option>
+                <option value="TO">Tocantins (TO)</option>
+              </select>
+            </div>
+
+            <div class="form-row two-cols">
+              <!-- E-mail -->
+              <input type="email" name="entry.2092682106" placeholder="Seu e-mail" required>
+              <!-- Telefone -->
+              <input type="tel" name="entry.1341905126" id="telefone" placeholder="Telefone">
+            </div>
+
+            <button type="submit" class="btn btn-solid">Baixar o Jornal</button>
+
+            <p id="form-ok" style="display:none;margin:8px 0 0; font-weight:600;">
+              ✅ Dados enviados! Obrigado.
+            </p>
+
+          </form>
+          <a id="dl-pdf" href="assets/jornal-perifa.pdf" download="jornal-perifa.pdf" hidden></a>
+
+        </div>
+
+      </div>
+
+
+      </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-top">
+      <div class="footer-logos">
+        <img src="img/LOGOS-JORNALPrancheta-1.png" alt="Realização, parceria e apoio">
+      </div>
+    </div>
+
+    <div class="container">
+      <hr class="footer-divider">
+      <p class="copyright">© <span id="year"></span> PerifaConnection. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
