@@ -2,7 +2,7 @@
 
 Projeto **Voz da Perifa** — um jornal digital produzido de forma colaborativa para amplificar vozes periféricas e discutir temas relevantes como justiça climática, racismo ambiental e direitos humanos em linguagem acessível.
 
-O jornal foi criado a partir do *Lab Clima e Periferias* — uma iniciativa do PerifaConnection em parceria com outras organizações de comunicação popular — com o objetivo de garantir que debates importantes sobre mudanças climáticas e justiça socioambiental cheguem às comunidades periféricas do Brasil. :contentReference[oaicite:0]{index=0}
+O jornal foi criado a partir do *Lab Clima e Periferias* — uma iniciativa do PerifaConnection em parceria com outras organizações de comunicação popular — com o objetivo de garantir que debates importantes sobre mudanças climáticas e justiça socioambiental cheguem às comunidades periféricas do Brasil. 
 
 ---
 
@@ -31,6 +31,6 @@ Este projeto foi construído com foco em desenvolvimento web e pode incluir:
 - CSS  
 - JavaScript  
 - Git & GitHub para versionamento  
-- Deploy estático (se estiver publicado de forma estática ou com alguma ferramenta como Vercel ou Netlify)
+- Deploy estático 
 
 ---
