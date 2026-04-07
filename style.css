@@ -110,6 +110,7 @@ body.loaded {
   background: rgba(255, 255, 255, .88)
 }
 
+.section h1,
 .section h2 {
   font-size: clamp(24px, 3vw, 40px);
   margin: 0 0 12px
@@ -130,6 +131,7 @@ body.loaded {
   padding: 40px 0;
 }
 
+#sobre-o-lab h1,
 #sobre-o-lab h2,
 #sobre-o-lab p,
 #sobre-o-lab a {
