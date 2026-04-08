@@ -64,7 +64,13 @@ body.loaded {
 
 .brand img {
   height: 36px;
-  display: block
+  display: block;
+  transition: all 0.3s ease;
+}
+
+.brand:hover img {
+  transform: scale(1.05);
+  filter: drop-shadow(0 0 8px rgba(163, 255, 206, 0.4));
 }
 
 .nav {
